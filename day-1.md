@@ -7,3 +7,7 @@
 - [ ] Convert my first blog post into an actual webpage.
 
 ## Review
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
